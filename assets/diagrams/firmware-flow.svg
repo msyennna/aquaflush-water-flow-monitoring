@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="770" viewBox="0 0 1200 770" role="img"><title>AquaFlush | Firmware flow</title><desc>Main-loop updates and the independent rising-edge interrupt</desc>
+<rect x="0" y="0" width="1200" height="770" rx="0" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.7"/>
+<rect x="0" y="0" width="1200" height="7" rx="0" fill="#007F87" stroke="#007F87" stroke-width="1.7"/>
+<text x="40" y="54" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="700" fill="#17324D" text-anchor="start">AquaFlush | Firmware flow</text>
+<text x="40" y="88" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#516578" text-anchor="start">Main-loop updates and the independent rising-edge interrupt</text>
+<rect x="90" y="125" width="500" height="94" rx="14" fill="#E0F0F1" stroke="#007F87" stroke-width="1.7"/>
+<text x="340" y="161" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="400" fill="#17324D" text-anchor="middle">Initialize D2, Serial, I2C and LCD</text>
+<text x="340" y="189" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="400" fill="#17324D" text-anchor="middle">Set the starting update time</text>
+<polyline points="340,219 340,247" fill="none" stroke="#007F87" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="340,247 334.345448056554,235.2941876694152 345.654551943446,235.2941876694152" fill="#007F87" stroke="#007F87" stroke-width="1.7"/>
+<polygon points="340,247 525,320 340,393 155,320" fill="#EDF7F7" stroke="#007F87" stroke-width="1.7"/>
+<text x="340" y="309" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="400" fill="#17324D" text-anchor="middle">About 1 second</text>
+<text x="340" y="337" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="400" fill="#17324D" text-anchor="middle">since last update?</text>
+<polyline points="155,320 38,320 38,247 330,247" fill="none" stroke="#007F87" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="330,247 318.2941876694152,252.654551943446 318.2941876694152,241.345448056554" fill="#007F87" stroke="#007F87" stroke-width="1.7"/>
+<text x="40" y="233" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#516578" text-anchor="start">No: wait</text>
+<polyline points="340,393 340,431" fill="none" stroke="#007F87" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="340,431 334.345448056554,419.2941876694152 345.654551943446,419.2941876694152" fill="#007F87" stroke="#007F87" stroke-width="1.7"/>
+<text x="357" y="416" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#007F87" text-anchor="start">Yes</text>
+<rect x="90" y="431" width="500" height="100" rx="14" fill="#EDF7F7" stroke="#D5E1E8" stroke-width="1.7"/>
+<text x="340" y="469" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="400" fill="#17324D" text-anchor="middle">Store update time; calculate L/hour</text>
+<text x="340" y="497" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="400" fill="#17324D" text-anchor="middle">Reset the shared pulse count</text>
+<polyline points="340,531 340,565" fill="none" stroke="#007F87" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="340,565 334.345448056554,553.2941876694152 345.654551943446,553.2941876694152" fill="#007F87" stroke="#007F87" stroke-width="1.7"/>
+<rect x="90" y="565" width="500" height="94" rx="14" fill="#EDF7F7" stroke="#D5E1E8" stroke-width="1.7"/>
+<text x="340" y="602" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="400" fill="#17324D" text-anchor="middle">Print flow on the LCD</text>
+<text x="340" y="630" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="400" fill="#17324D" text-anchor="middle">Print flow to Serial Monitor</text>
+<polyline points="590,612 660,612 660,320 525,320" fill="none" stroke="#007F87" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="525,320 536.7058123305848,314.345448056554 536.7058123305848,325.654551943446" fill="#007F87" stroke="#007F87" stroke-width="1.7"/>
+<text x="678" y="566" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#516578" text-anchor="start">Repeat</text>
+<rect x="775" y="150" width="380" height="170" rx="14" fill="#F0F5FC" stroke="#2764A0" stroke-width="1.7"/>
+<text x="965" y="188" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" fill="#17324D" text-anchor="middle">Whenever D2 rises</text>
+<text x="965" y="226" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="400" fill="#17324D" text-anchor="middle">Interrupt handler: flow()</text>
+<text x="965" y="262" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="400" fill="#17324D" text-anchor="middle">flow_frequency++</text>
+<rect x="775" y="362" width="380" height="170" rx="14" fill="#FAFBFC" stroke="#D5E1E8" stroke-width="1.7"/>
+<text x="796" y="399" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#516578" text-anchor="start">The interrupt increments a counter.</text>
+<text x="796" y="425" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#516578" text-anchor="start">The main loop reads and resets it.</text>
+<text x="796" y="451" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#516578" text-anchor="start"></text>
+<text x="796" y="477" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#516578" text-anchor="start">Snapshot/reset is not atomic</text>
+<text x="796" y="503" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#516578" text-anchor="start">in the preserved source.</text>
+<text x="40" y="712" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#516578" text-anchor="start">The conversion assumes a one-second interval and an unverified divisor of 7.5.</text>
+<text x="40" y="737" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#516578" text-anchor="start">This diagram describes the preserved source, not a newly validated firmware revision.</text>
+</svg>
