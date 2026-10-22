@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img"><title>AquaFlush</title><desc>Water-flow monitoring prototype</desc>
+<rect x="0" y="0" width="1280" height="640" rx="0" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.7"/>
+<rect x="0" y="0" width="1280" height="7" rx="0" fill="#007F87" stroke="#007F87" stroke-width="1.7"/>
+<text x="40" y="54" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="700" fill="#17324D" text-anchor="start">AquaFlush</text>
+<text x="40" y="88" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#516578" text-anchor="start">Water-flow monitoring prototype</text>
+<rect x="0" y="0" width="1280" height="640" rx="0" fill="#122D42" stroke="#122D42" stroke-width="1.7"/>
+<rect x="0" y="0" width="1280" height="12" rx="0" fill="#00A5AA" stroke="#00A5AA" stroke-width="1.7"/>
+<text x="68" y="143" font-family="DejaVu Sans, sans-serif" font-size="72" font-weight="700" fill="#FFFFFF" text-anchor="start">AquaFlush</text>
+<text x="72" y="215" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="400" fill="#E0EDF2" text-anchor="start">Water-flow monitoring</text>
+<text x="72" y="258" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="400" fill="#E0EDF2" text-anchor="start">for miniature drainage models</text>
+<rect x="72" y="325" width="184" height="52" rx="12" fill="#20485F" stroke="#3C6274" stroke-width="1.7"/>
+<text x="164.0" y="359" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="400" fill="#FFFFFF" text-anchor="middle">Arduino Uno</text>
+<rect x="275" y="325" width="149" height="52" rx="12" fill="#20485F" stroke="#3C6274" stroke-width="1.7"/>
+<text x="349.5" y="359" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="400" fill="#FFFFFF" text-anchor="middle">I2C LCD</text>
+<rect x="443" y="325" width="208" height="52" rx="12" fill="#20485F" stroke="#3C6274" stroke-width="1.7"/>
+<text x="547.0" y="359" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="400" fill="#FFFFFF" text-anchor="middle">Pulse sensing</text>
+<text x="72" y="455" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="400" fill="#BBD4DF" text-anchor="start">Recovered firmware, reference wiring,</text>
+<text x="72" y="490" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="400" fill="#BBD4DF" text-anchor="start">and technical documentation</text>
+<text x="72" y="565" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="400" fill="#BBD4DF" text-anchor="start">BCA144  |  MSU-IIT  |  Group project  |  2025</text>
+<text x="72" y="602" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#89BAC9" text-anchor="start">Independent portfolio and documentation edition</text>
+<rect x="838" y="103" width="372" height="430" rx="24" fill="#EAF5F6" stroke="#A9D7D9" stroke-width="1.7"/>
+<rect x="874" y="141" width="300" height="82" rx="12" fill="#FFFFFF" stroke="#C0DBE0" stroke-width="1.7"/>
+<text x="1024" y="174" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" fill="#17324D" text-anchor="middle">Flow sensor</text>
+<text x="1024" y="202" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#516578" text-anchor="middle">Pulse output</text>
+<rect x="874" y="276" width="300" height="82" rx="12" fill="#FFFFFF" stroke="#C0DBE0" stroke-width="1.7"/>
+<text x="1024" y="309" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" fill="#17324D" text-anchor="middle">Arduino Uno</text>
+<text x="1024" y="337" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#516578" text-anchor="middle">Interrupt on D2</text>
+<rect x="874" y="411" width="300" height="82" rx="12" fill="#FFFFFF" stroke="#C0DBE0" stroke-width="1.7"/>
+<text x="1024" y="444" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" fill="#17324D" text-anchor="middle">LCD + Serial</text>
+<text x="1024" y="472" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#516578" text-anchor="middle">Estimated flow in L/hour</text>
+<polyline points="1024,223 1024,276" fill="none" stroke="#007F87" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1024,276 1018.345448056554,264.2941876694152 1029.654551943446,264.2941876694152" fill="#007F87" stroke="#007F87" stroke-width="1.7"/>
+<polyline points="1024,358 1024,411" fill="none" stroke="#007F87" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1024,411 1018.345448056554,399.2941876694152 1029.654551943446,399.2941876694152" fill="#007F87" stroke="#007F87" stroke-width="1.7"/>
+</svg>
