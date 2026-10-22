@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660" role="img"><title>AquaFlush | Reference connections</title><desc>Inferred signal map; actual module ratings and physical wiring remain unconfirmed</desc>
+<rect x="0" y="0" width="1200" height="660" rx="0" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.7"/>
+<rect x="0" y="0" width="1200" height="7" rx="0" fill="#007F87" stroke="#007F87" stroke-width="1.7"/>
+<text x="40" y="54" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="700" fill="#17324D" text-anchor="start">AquaFlush | Reference connections</text>
+<text x="40" y="88" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#516578" text-anchor="start">Inferred signal map; actual module ratings and physical wiring remain unconfirmed</text>
+<rect x="40" y="150" width="285" height="260" rx="14" fill="#EDF7F7" stroke="#D5E1E8" stroke-width="1.7"/>
+<text x="182" y="193" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="700" fill="#17324D" text-anchor="middle">Flow sensor</text>
+<text x="300" y="240" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700" fill="#17324D" text-anchor="end">OUT</text>
+<text x="62" y="302" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#17324D" text-anchor="start">VCC: module-rated supply</text>
+<text x="300" y="365" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="400" fill="#17324D" text-anchor="end">GND</text>
+<rect x="460" y="120" width="250" height="320" rx="14" fill="#E0F0F1" stroke="#007F87" stroke-width="1.7"/>
+<text x="585" y="166" font-family="DejaVu Sans, sans-serif" font-size="26" font-weight="700" fill="#17324D" text-anchor="middle">Arduino Uno</text>
+<text x="480" y="240" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#17324D" text-anchor="start">D2</text>
+<text x="690" y="240" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#17324D" text-anchor="end">A4</text>
+<text x="690" y="300" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#17324D" text-anchor="end">A5</text>
+<text x="585" y="353" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#17324D" text-anchor="middle">USB to computer</text>
+<text x="585" y="420" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="400" fill="#17324D" text-anchor="middle">GND</text>
+<rect x="850" y="150" width="310" height="260" rx="14" fill="#EDF7F7" stroke="#D5E1E8" stroke-width="1.7"/>
+<text x="1005" y="193" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="700" fill="#17324D" text-anchor="middle">I2C LCD</text>
+<text x="870" y="240" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700" fill="#17324D" text-anchor="start">SDA</text>
+<text x="870" y="300" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700" fill="#17324D" text-anchor="start">SCL</text>
+<text x="1138" y="340" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#17324D" text-anchor="end">VCC: rated supply</text>
+<text x="870" y="380" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="400" fill="#17324D" text-anchor="start">GND</text>
+<polyline points="325,233 460,233" fill="none" stroke="#007F87" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="460,233 448.2941876694152,238.654551943446 448.2941876694152,227.345448056554" fill="#007F87" stroke="#007F87" stroke-width="1.7"/>
+<text x="391" y="217" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="400" fill="#17324D" text-anchor="middle">pulse</text>
+<polyline points="710,233 850,233" fill="none" stroke="#007F87" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="850,233 838.2941876694152,238.654551943446 838.2941876694152,227.345448056554" fill="#007F87" stroke="#007F87" stroke-width="1.7"/>
+<text x="780" y="216" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="400" fill="#17324D" text-anchor="middle">I2C data</text>
+<polyline points="710,293 850,293" fill="none" stroke="#007F87" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="850,293 838.2941876694152,298.654551943446 838.2941876694152,287.345448056554" fill="#007F87" stroke="#007F87" stroke-width="1.7"/>
+<text x="780" y="277" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="400" fill="#17324D" text-anchor="middle">I2C clock</text>
+<polyline points="325,358 370,358 370,465" fill="none" stroke="#516578" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="585,440 585,465" fill="none" stroke="#516578" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="850,373 810,373 810,465" fill="none" stroke="#516578" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="370,465 810,465" fill="none" stroke="#516578" stroke-width="3" stroke-linejoin="round"/>
+<text x="590" y="495" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#516578" text-anchor="middle">Common signal ground</text>
+<rect x="40" y="525" width="1120" height="86" rx="14" fill="#FFF7E5" stroke="#E4C98A" stroke-width="1.7"/>
+<text x="61" y="557" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#6C5421" text-anchor="start">Confirm supply ratings and signal levels before reconnecting unidentified modules.</text>
+<text x="61" y="584" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#6C5421" text-anchor="start">The recovered sketch assumes LCD address 0x27. No relay/pump pin assignment can be recovered.</text>
+</svg>
