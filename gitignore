@@ -1,0 +1,15 @@
+# Arduino build outputs
+build/
+*.elf
+*.hex
+*.map
+*.o
+*.a
+
+# Temporary and operating-system files
+*.tmp
+*.bak
+*~
+.DS_Store
+Thumbs.db
+
